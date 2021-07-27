@@ -1,0 +1,14 @@
+I must use:
+- React.
+- Jest + react-testing-library / enzyme.
+- ESLint as a linter.
+- TypeScript. Next.js has support for it.
+- CSSinJS, I'll use styled-components.
+
+I choose to use:
+- Next.js for the frontend, because I used it in my previous job, and is something
+that I want to practice.
+- Vercel for the deployment, for the same reason. And because it works well with
+Next.js.
+- Prettier for code formatting.
+- Commitizen for commits documentation.
