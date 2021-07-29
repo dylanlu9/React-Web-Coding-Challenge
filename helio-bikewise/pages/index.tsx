@@ -13,6 +13,10 @@ export default function Home(): JSX.Element {
       </Head>
 
       <main className={styles.main}>
+
+        <Image src="/images/berlin-police-emblem.png" alt="Berlin's police Logo" 
+          width={100} height={100} />
+
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
