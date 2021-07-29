@@ -21,6 +21,10 @@ export default function Home(): JSX.Element {
           Police Departmen of Berlin
         </h1>
 
+        <h2>
+          Stolen bykes
+        </h2>
+
         <p className={styles.description}>
           Get started by editing{" "}
           <code className={styles.code}>pages/index.js</code>
