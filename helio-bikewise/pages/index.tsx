@@ -14,16 +14,16 @@ export default function Home(): JSX.Element {
 
       <main className={styles.main}>
 
-        <Image src="/images/berlin-police-emblem.png" alt="Berlin's police Logo" 
-          width={100} height={100} />
-
-        <h1 className={styles.title}>
-          Police Departmen of Berlin
-        </h1>
-
-        <h2>
-          Stolen bykes
-        </h2>
+        <div className={styles["titles-container"]}>
+          <Image src="/images/berlin-police-emblem.png" alt="Berlin's police Logo" 
+            width={100} height={100} />
+          <h1 className={styles.title}>
+            Police Departmen of Berlin
+          </h1>
+          <h2>
+            Stolen bykes
+          </h2>
+        </div>
 
         <p className={styles.description}>
           Get started by editing{" "}

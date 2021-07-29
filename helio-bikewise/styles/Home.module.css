@@ -26,6 +26,10 @@
   background-color: rgb(193, 193, 193);
 }
 
+.titles-container {
+  display: flex;
+}
+
 .footer a {
   display: flex;
   justify-content: center;
