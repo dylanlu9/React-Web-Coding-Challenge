@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "check-code": "npx prettier --write . && npx eslint ."
+    "check-code": "npx prettier --write . && npx eslint .",
+    "test": "jest"
   },
   "dependencies": {
     "next": "11.0.1",
@@ -24,6 +25,7 @@
     "eslint": "^7.31.0",
     "eslint-config-next": "11.0.1",
     "eslint-plugin-react": "^7.24.0",
+    "jest": "^27.0.6",
     "prettier": "2.3.2",
     "typescript": "^4.3.5"
   },
@@ -31,5 +33,9 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "jest": {
+    "transform": {},
+    "verbose": true
   }
 }
