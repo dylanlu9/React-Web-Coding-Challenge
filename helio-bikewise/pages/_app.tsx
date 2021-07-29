@@ -1,10 +1,13 @@
 import "../styles/globals.css";
-import PropTypes from "prop-types";
+import PropTypes, { ReactComponentLike } from "prop-types";
 import React from "react";
 
-function MyApp({ Component, pageProps }): JSX.Element {
-	return <Component {...pageProps} />;
+interface MyAppArgs {
+	Component: ReactComponentLike | undefined;
+	pageProps: unknown;
 }
+
+const MyApp: React.FC<MyAppArgs> = ({ Component, pageProps }): JSX.Element => <Component {...pageProps} />;
 
 MyApp.propTypes = {
 	Component: PropTypes.elementType,
