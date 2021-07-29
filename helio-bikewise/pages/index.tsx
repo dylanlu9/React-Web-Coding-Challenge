@@ -14,7 +14,7 @@ export default function Home(): JSX.Element {
 
       <main className={styles.main}>
 
-        <div className={styles["titles-container"]}>
+        <div className={styles.titles_container}>
           <Image src="/images/berlin-police-emblem.png" alt="Berlin's police Logo" 
             width={100} height={100} />
           <h1 className={styles.title}>
