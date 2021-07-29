@@ -3,7 +3,7 @@ I must use:
 - Jest + react-testing-library / enzyme.
 - ESLint as a linter.
 - TypeScript. Next.js has support for it.
-- CSSinJS, I'll use styled-components.
+- CSSinJS, I'll use CSS Modules because it already comes with Next.js.
 
 I choose to use:
 - Next.js for the frontend, because I used it in my previous job, and is something
