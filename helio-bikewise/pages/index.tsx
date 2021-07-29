@@ -18,7 +18,7 @@ export default function Home(): JSX.Element {
           width={100} height={100} />
 
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Police Departmen of Berlin
         </h1>
 
         <p className={styles.description}>
